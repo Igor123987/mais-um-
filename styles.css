@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0a0a0a;
+}
+
+#countdown {
+    font-size: 2em;
+    color: #ebe3e3;
+    margin-bottom: 20px;
+}
+
+.surprise {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(253, 249, 249, 0.1);
+    margin-bottom: 10px;
+    display: none;
+}
+
+.surprise.revealed {
+    display: block;
+}
